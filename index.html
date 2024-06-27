@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="auth">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" id="signupUsername" placeholder="Username" required>
+            <input type="password" id="signupPassword" placeholder="Password" required>
+            <button type="submit">Sign Up</button><br><br>
+           <a href="Game/gamecode/sand.html"><button type="primary">GO TO GAME</button></a> 
+        </form>
+    </div>
+    <div id="game">
+        <div id="ball"></div>
+        <div class="hole" style="top: 100px; left: 200px;"></div>
+        <div class="hole" style="top: 300px; left: 400px;"></div>
+        <div class="hole" style="top: 200px; left: 100px;"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
